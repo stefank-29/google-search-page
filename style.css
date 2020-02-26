@@ -1,0 +1,210 @@
+.navBar1{
+    display: block;
+    position: relative;
+    
+    height: 65px;
+    
+    
+}
+#logo{
+    height: 30px;
+    width: 92px;
+    
+    border: 0;
+    padding: 5px 30px 0px 20px;
+    position: absolute;
+    top: 15px;
+
+    
+}
+
+
+
+/* ---------search bar----------------*/
+
+.searchContainer {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    display: flex;
+    width: 550px;
+    height: 37px;
+    padding: 5px 20px;
+    
+    border: 1px solid lightgray;
+    border-radius: 25px;
+   
+    font-size: 16px;
+    font-family: sans-serif;
+
+    align-items: center;
+    justify-content: space-around;
+    
+
+ }
+ .searchContainer:hover{
+    box-shadow: 0 0 5px 1px #bdbdbd
+ }
+
+ .searchBox{
+     height: 100%;
+     border: 0;
+     font-size: 16px;
+     flex: 1;
+     padding: 15px 15px;
+     border-right: 1px solid #bdbdbd;
+     
+     
+     
+ }
+ .searchIcon{
+    margin: auto 10px;
+    color: rgb(14, 14, 206);
+ }
+ .voiceIcon{
+     margin: auto 20px;
+     color: rgb(14, 14, 206);
+
+ }
+ .rnav{
+     float: right;
+     margin-right: 10px;
+     margin-top: 10px;
+ }
+ .rnav a{
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 8px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+.rnav a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+}
+.rnav button{
+   color: #ffffff;
+   width: 70px;
+   height: 30px;
+   padding: 0 10px;
+   background-color: #4387fd;
+   border: 1px solid ;
+   border-radius: 3px;
+   font-weight: bold;
+}
+
+.navBar2{
+    display: block;
+    padding-left: 150px;
+    margin-top: 10px;
+    width: 550px;
+    height: 40px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+.navBar2 a{
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 10px;
+}
+
+.navBar2 i{
+    margin: 5px;
+}
+#more{
+    margin-left: 20px;
+}
+.navBar2 .right{
+    float: right;
+    margin: 3px;
+}
+
+/*=======main-----------*/
+
+.results{
+    display: block;
+    height: 30px;
+    padding-left: 150px;
+    padding-top: 15px;
+    border-top: 1px solid #bdbdbd;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+}
+
+
+/*--------------site--------------*/
+.site{
+    display: block;
+    padding-left: 150px;
+    margin: 30px 0px;
+    width: 600px;
+    height: auto;
+
+
+}
+.site .link{
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+h3{
+    color: #1A0DAB;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 5px 0px;
+
+}
+.site a{
+    text-decoration: none;
+}
+.site a:hover{
+    text-decoration: underline;
+
+}
+.ad a:active{
+    color: #660099;;
+}
+
+ .article{
+    color: #3c4043 ;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/*-------------questions box-------------*/
+.ask{
+    display: block;
+    position: relative;
+    left: 150px;
+    margin: 30px 0px;
+    width: 652px;
+    line-height: 36px;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px ;
+
+}
+.ask .title{
+    font-size: 20px;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    padding: 8px 15px;
+   
+    
+}
+.ask .q{
+    font-size: 16px;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    padding: 8px 15px;
+    border-top: 1px solid #dfe1e5;  
+    
+}
+
