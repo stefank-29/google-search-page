@@ -102,7 +102,7 @@
     margin-top: 10px;
     width: 550px;
     height: 40px;
-    font-size: 13px;
+    font-size: 14px;
     font-family: Arial, sans-serif;
 }
 .navBar2 a{
@@ -110,7 +110,9 @@
     color: #5f6368;
     margin-right: 10px;
 }
-
+.navBar2 a:hover{
+    color: #1A0DAB; 
+}
 .navBar2 i{
     margin: 5px;
 }
