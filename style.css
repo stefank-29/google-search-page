@@ -153,7 +153,7 @@
 
 }
 
-h3{
+.site h3{
     color: #1A0DAB;
     font-size: 20px;
     font-family: Arial, sans-serif;
@@ -208,3 +208,42 @@ h3{
     
 }
 
+/*------related searches------------*/
+
+.related{
+    display: block;
+    position: relative;
+    left: 150px;
+    margin: 30px 0px;
+    border: 0;
+
+}
+.related h3{
+    color: #222222;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    
+}
+
+.related .col{
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: auto;
+    margin-right: 20px;
+
+}
+.related a{
+    display: block;
+    text-decoration: none;
+    color: #1a0dab !important;
+}
+.related a:hover{
+    text-decoration: underline;
+}
+.related a:visited{
+   color: #609;
+}
