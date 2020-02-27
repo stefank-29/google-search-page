@@ -234,6 +234,7 @@
     font-weight: bold;
     width: auto;
     margin-right: 20px;
+    margin-top: 20px;
 
 }
 .related a{
@@ -254,6 +255,8 @@
     display: block;
     position: relative;
     left: 330px;
+    margin-bottom: 30px;
+
 }
 .gglpages .links{
     display: block;
@@ -278,4 +281,53 @@
 
 #next{
     margin-left: 50px;
+}
+
+/*-----------footer navbar------------*/
+
+.ftrNav{
+    display: block;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    line-height: 30px;
+    padding-left: 150px;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+}
+#country{
+    display: inline-block;
+    font-size: 15px;
+    margin: auto 10px;
+    
+}
+
+.ftrNav .navUp{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+.ftrNav a{
+    color: #5f6368;
+    text-decoration: none;
+    margin: auto 2px;
+
+}
+.ftrNav a:hover{
+    color: #3c4043;
+}
+.ftrNav strong{
+    color: #333;
+}
+.ftrNav .navDown{
+    display: block;
+    border-top: 1px solid #e4e4e4;
+    margin: auto 10px;
+    line-height: 40px;
 }
